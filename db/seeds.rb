@@ -16,8 +16,6 @@ posts = Post.all
   )
 end
 
-Post.find_or_create_by(title: "Unique title", body: "unique body")
-
 puts "Seed finished"
 puts "#{Post.count} posts created"
 puts "#{Comment.count} comments created"
